@@ -1,0 +1,14 @@
+<template>
+    <div class="categories">
+      <h1>This is a categories page</h1>
+    </div>
+  </template>
+  
+  <style>
+  @media (min-width: 1024px) {
+    .categories {
+      min-height: 100vh;
+      display: flex;
+    }
+}
+  </style>
