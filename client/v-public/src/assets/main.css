@@ -1,4 +1,7 @@
 @import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* importing flowbite vue styles */
 @import '/node_modules/flowbite-vue/dist/index.css';
