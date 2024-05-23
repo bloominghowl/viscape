@@ -11,11 +11,6 @@ const visible = ref(true);
 
 
 <template>
-    <div>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </div>
     
     <div class="flex card justify-content-center">
         <Sidebar v-model:visible="visible">
