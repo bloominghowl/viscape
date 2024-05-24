@@ -103,12 +103,12 @@ import { RouterLink, RouterView } from 'vue-router';
             </router-link>
          </li>
          <li>
-            <a href="#" class="flex items-center p-2 text-gray-100 rounded-lg dark:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700 group">
+            <router-link to="uploadedfiles" class="flex items-center p-2 text-gray-100 rounded-lg dark:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700 group">
                <svg class="w-6 h-6 text-orange-100 group-hover:text-orange-400 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                    <path fill-rule="evenodd" d="M12 3a1 1 0 0 1 .78.375l4 5a1 1 0 1 1-1.56 1.25L13 6.85V14a1 1 0 1 1-2 0V6.85L8.78 9.626a1 1 0 1 1-1.56-1.25l4-5A1 1 0 0 1 12 3ZM9 14v-1H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-4v1a3 3 0 1 1-6 0Zm8 2a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2H17Z" clip-rule="evenodd"/>
                </svg>
                <span class="flex-1 ms-3 whitespace-nowrap">Uploaded Files</span>
-            </a>
+            </router-link>
          </li>
          <li>
             <a href="#" class="flex items-center p-2 text-gray-100 rounded-lg dark:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700 group">
