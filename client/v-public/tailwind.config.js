@@ -8,9 +8,19 @@ export default {
   ],
   theme: {
     extend: {},
+    colors: {
+      green: true,
+      indigo: true,
+      purple: true,
+      yellow: true,
+    }
   },
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin')({
+      charts: true,
+      forms: true,
+      tooltips: true
+    })
   ],
 }
 
